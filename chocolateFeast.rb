@@ -1,4 +1,4 @@
-t = gets.to_i
+	t = gets.to_i
    t.times{
       (n, c, m) = gets.split.map{|i| i.to_i}
    chocolates = wrappers = n / c
