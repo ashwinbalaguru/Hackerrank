@@ -1,6 +1,6 @@
 test_string = gets.chomp.downcase
 alphabet = ("a".."z").to_a
-test_string.each do |char|
+test_string.split(//).each do |char|
   alphabet.delete(char)
 end
 
